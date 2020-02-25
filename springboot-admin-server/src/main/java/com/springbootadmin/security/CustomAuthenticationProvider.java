@@ -34,7 +34,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
                                                              user.getPassword().equals(password))
                                                      .findFirst();
 
-        if(!authenticatedUser.isPresent()){
+        if (!authenticatedUser.isPresent()) {
             throw new BadCredentialsException("User unothorized!");
         }
 
