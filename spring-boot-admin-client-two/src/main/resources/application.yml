@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-boot-admin-client
+    name: spring-boot-admin-client-two
 
 server:
   port: 0
